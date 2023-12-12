@@ -262,13 +262,13 @@ cout << "\n HOME TASK 1: INVERSE OF A MATRIX \n";
         }
     }
     //displaying adjoint
-    cout << "The adjoint matrix is:-\n";
-    for (int i = 0; i < 3; i++) {
-        for (int j = 0; j < 3; j++) {
-            cout << adj[i][j] << " ";
-        }
-        cout << endl;
-    }
+    //cout << "The adjoint matrix is:-\n";
+    //for (int i = 0; i < 3; i++) {
+       // for (int j = 0; j < 3; j++) {
+        //    cout << adj[i][j] << " ";
+        //}
+      //  cout << endl;
+   // }
    //inverse of matrix = (Adjoint of matrix)/(determinant of matrix) 
     cout<<"The inverse of the matrix is:-\n"; 
     for (int i = 0; i < 3; i++) {
